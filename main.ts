@@ -16,3 +16,5 @@ let mySprite = sprites.create(img`
     . . . . c c d d d 5 5 5 b b . . 
     . . . . . . c c c c c b b . . . 
     `, SpriteKind.Player)
+controller.moveSprite(mySprite, 100, 100)
+game.splash("Daniel do you see this?")
